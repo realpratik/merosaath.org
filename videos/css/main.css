@@ -1,0 +1,508 @@
+body {
+    font: 16px, Helvetica; 
+    text-align:center;
+    min-width:100%;
+    background-image:url("../imgs/merosaath-com-nepal.JPG"); 
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-origin: border-box;
+    min-height: 500px;
+    opacity: 0.95;
+    filter: alpha(opacity=40); /* For IE8 and earlier */  
+    background: black;
+    }
+
+.container {
+    text-align:center;
+    min-width: 100%;
+    padding:5px;
+    }
+
+header { 
+    padding:5px; 
+    height:auto;
+    min-width:100%;
+    border-bottom:5px solid black;
+    border-radius:5px;    
+    background-image:url("../imgs/mero-saath-flower-nepal.JPG"); 
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-origin: content-box;
+    background: white;  
+    }
+    
+.logo {
+    float:left;
+    padding:5px;
+    border-radius:100%;                    background:white;
+    }   
+
+
+#menu_bar {  
+    visibility: hidden;
+    clear:both;
+}
+
+#check {
+    width:100%;
+    height:auto;
+    border:0px solid black; 
+}
+
+
+
+
+#menu ul {  
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: center;
+    list-style-type: none;
+  }
+
+#gly1 {
+    visibility:hidden;
+    float:left;
+}
+
+
+
+
+
+#menu ul li .A {      
+  -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+  -webkit-order: 1;
+        order: 1; 
+
+}
+
+#menu ul li .B {      
+  -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+  -webkit-order: 2;
+        order: 2; 
+
+}
+
+ #menu ul li .C {      
+  -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+  -webkit-order: 3;
+        order: 3; 
+
+}
+
+ #menu ul li .D {      
+  -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+  -webkit-order: 4;
+        order: 4; 
+
+}
+
+ #menu ul li .E {      
+-webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+  -webkit-order: 5;
+        order: 5; 
+
+}
+ 
+
+#menu ul li a {
+    text-decoration:none;
+    color:black;
+  /*background:white;*/
+    padding: 0 20px 0 20px;
+    margin:0 10px;
+   
+    font-size:18px;
+  }
+
+#menu ul li a:hover {
+    color:#e82727; 
+    transform:scale(1.5);
+    
+  }
+
+
+/*Home page*/ 	
+section { 
+    min-height:460px;
+    padding:0 5px 0 5px;
+   /* text-align:center; */
+    background-color:#F0F0F0;
+  /*  clear:both;
+ */   
+    }
+
+#mainImage {
+    width:95%;
+    height:400px;
+    }
+
+#glyphicon_slider {
+    transform:scale(1.6);
+    background:#e6dfdf;
+    border:1px solid black;
+    border-radius:5pt;
+    width:28px;
+    height:auto;
+    margin:10px auto;
+    color:black;
+    overflow: hidden;
+    }
+
+.sidebar1 {
+    background:black;
+    padding: 0 2px;
+    font-size: 36px;
+    font-family: cursive;
+    border:5px double  white;
+    margin:0;
+    }
+
+.sidebar2 {
+    background:black;
+    border:1px solid  black;   
+    }
+
+
+#demo {
+    color:green;
+    }
+
+#main {
+    min-height:500px;
+    margin: 0px;
+    padding: 0px;
+    display: -webkit-flex;
+    display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+   }
+
+#main > article {
+   margin: 4px;
+   padding: 5px;
+   border: 0px solid black;
+   border-radius: 5pt;
+   background:white;
+   -webkit-flex: 3 1 60%;
+           flex: 3 1 60%;
+   -webkit-order: 2;
+           order: 2;
+   }
+/*
+#main > nav {
+   margin: 4px;
+   padding: 5px;
+   border: 0px solid black;
+   border-radius: 5pt;
+   background:white;
+   -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   -webkit-order: 1;
+           order: 1;
+   }
+*/
+#main > aside {
+   margin: 4px;
+   padding: 5px;
+   border: 0px solid black;
+   border-radius: 5pt;
+   background: white;
+   -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   -webkit-order: 3;
+           order: 3;
+   }
+
+article .practice p {
+    padding:5px 30px;
+    text-align: justify;    
+    }
+
+
+article {
+    width:auto;
+    min-height:150px;
+    border:0px solid black;
+    padding:10px;
+    margin:10px;
+    }
+
+.paypal {    
+    margin:auto;
+   }
+
+.paypal2 {
+    float:right;
+    width:100px;  
+    }
+
+.categories li  {
+    text-decoration:none;
+    text-align:left;;
+  }
+
+.categories li a {
+    text-decoration:none;
+  }
+
+/*form*/
+.contact_form {
+    border:1px solid black;
+    padding:20px; 
+    background:white;
+    align-self:center;
+    min-height:380px;  
+    max-width:50%;
+    margin:auto;
+    }
+
+input[type="text"],input[type="email"] {
+width:80%;
+    display: block;
+    margin-bottom: 10px;
+    background-color: white;
+    text-align:center;
+    margin:auto;
+    padding:10px;   
+    font-family:italic;
+    font:13px bold;
+    border: 1px solid #150f0f;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="text"]:focus, input[type="email"]:focus,
+[type="textarea"]:focus  {
+    background-color: #F0F0F0;    
+}
+
+
+input[type="button"] {
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+[type="textarea"] {
+    width:80%;
+    height:150px;
+    display: block;
+    font-size:18px;
+    margin:auto;
+    cursor: pointer;
+}
+
+
+/*footer*/
+ footer {
+    display:block;
+    padding: 15px;
+    min-height: 40px;
+    border: 0px solid black;
+    border-radius: 1pt;
+    text-align: center;
+    background:white;
+    }
+
+
+
+.social_icon img {
+    border-radius:100%;
+    width:25px;
+    height:25px;
+    float:right;
+    padding:2px;
+  }
+
+.footer_menu {
+   max-width:80%;
+   float:left;
+  }
+ 
+.footer_bottom p  {
+  clear:both;
+  font-size:12px;
+  }
+
+.footer_bottom p a  {
+  color:black;
+  }
+
+.footer_bottom p a:hover  {
+  text-decoration: none;
+  color:red;
+  }
+
+
+.footer_menu ul {
+ float:left;
+  clear:both;
+ }
+.footer_menu ul li {
+  display:inline;
+  padding:5px;
+  }
+
+.footer_menu ul li a {
+  text-decoration:none;
+  color:black;
+ }
+
+.footer_menu ul li a:hover {
+  color:red;
+  transform:scale(1.5);
+  transition:.2s;
+ }
+
+/*About page*/
+
+#main2 {
+   min-height:200px;
+   margin: 0;
+   padding: 0px;
+   display: -webkit-flex;
+   display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+    padding:50px;
+   }
+
+#main2 > .article1 {
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid black;
+   border-radius: 7pt;
+   background: 	#F8F8F8 ;
+   -webkit-flex: 3 1 33.33%;
+           flex: 3 1 33.33%;
+   -webkit-order: 1;
+           order: 1;
+    padding:20px;
+    background: black;
+    color:white;
+    line-height: 1.7;
+    font-size:18px;
+   }
+
+#main2 > .article2 {
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid black;
+   border-radius: 7pt;
+   background: 	#F0F0F0 ;
+   -webkit-flex: 1 6 33.33%;
+           flex: 1 6 33.33%;
+   -webkit-order: 2;
+           order: 2;
+    padding:20px;
+    background: black;
+    color:white;
+    line-height: 1.7;
+    font-size:18px;
+    
+   }
+
+#main2 > .article3 {
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid black;
+   border-radius: 7pt;
+   background: 	#F0F0F0 ;
+   -webkit-flex: 1 6 33.33%;
+           flex: 1 6 33.33%;
+   -webkit-order: 3;
+           order: 3;
+    padding:20px;
+    background: black;
+    color:white;
+    line-height: 1.4;
+    font-size:18px;
+   }
+
+  
+/*
+--check this--
+
+buyanddonate image slide up  
+
+.slideUp {
+   animation-name: slideUp;
+   -webkit-animation-name: slideUp;
+   animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slideUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.col-1 {float:left}
+.col-2 {float:left;padding-left:25px;}
+.col-1 img {width:180px;height:100px;visibility:hidden;}
+hr {margin-top:400px;}
+
+
+
+*/
+
+/*
+*FLEX shorthand:
+
+flex-grow: 0        //order
+flex-shrink: 1      // shrinks the text inside the box -compress the box //number
+flex-basis: auto    //width in pixels or percentage
+
+
+flex container
+.box {
+    display: flex;
+    flex-flow: row/row-reverse/column/cloumn-reverse || nowrap/wrap/wrap-reverse(flex-wrap separately or added in this );
+    justify-content:center/flex-start/flex-end/space-between/space-around ;
+    align-content:center/flex-start/flex-end/space-between/space-around/stretch ;
+    align-items: center/flex-start/flex-end/space-between/baseline/stretch;
+}
+
+flex item
+A
+.box div.A {
+    order: 4
+    flex: 0 5 auto ;
+    align-self: center/flex-start/flex-end/baseline/stretch/auto;
+    min-width: 40;
+    min-height: auto;
+}
+
+
+source:http://demo.agektmr.com/flexbox and MDN
+*/
+  
