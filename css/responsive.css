@@ -1,0 +1,267 @@
+
+  /* Too narrow to support three columns */
+@media all and (max-width: 800px) {
+
+
+/*header*/  
+
+header {
+    border-bottom: 2px solid black;
+    }
+    
+ #gly {
+    visibility: visible;
+    transform:scale(1.2);
+    float:left;
+    color:black; 
+    padding:10px;
+    cursor:pointer;
+    }
+
+#glyphicon_slider {
+    transform:scale(1.4);   
+    color:black; 
+    }
+    
+    
+#gly1 {
+    visibility:visible;
+    transform:scale(1.8);
+    cursor:pointer;
+    padding:10px;
+    color:black;
+    }
+
+    
+#menu {
+    width:200px; 
+    position:fixed;
+    left:-300px;  
+    background:#96999b;
+    z-index: 1;
+    }
+    
+ul #check {
+    display:flex;  
+    margin:0;
+    padding:0;
+    width:60px;
+    align-content:justify; 
+    align-items:center;
+    /*
+    justify-content:center/*flex-start/flex-end/space-between/space-around ;
+    align-content:center/flex-start/flex-end/space-between/space-around/stretch ;
+    align-items: center/flex-start/flex-end/space-between/baseline/stretch; */
+    
+    }
+
+    
+    
+#check li {  
+    display:block;
+    line-height: 1.9;
+    -webkit-flex: 1 1 auto;
+            flex: 1 1 auto;
+    -webkit-order: 0;
+            order: 0; 
+    border-bottom:0.05px solid black;
+     margin-bottom: 0;
+     padding-bottom: 0;
+     color:white;
+    }
+  
+    
+  
+#check  .A {   
+    margin-top: -30px;
+    -webkit-flex: 1 1 auto;
+            flex: 1 1 auto;
+    -webkit-order: 1;
+            order: 1; 
+align-self:flex-start;
+    }
+    
+#check .B {      
+    -webkit-flex: 1 1 auto;
+            flex: 1 1 auto;
+    -webkit-order: 2;
+            order: 2; 
+   
+    }
+    
+    #check .C {      
+    -webkit-flex: 1 1 auto;
+            flex: 1 1 auto;
+    -webkit-order: 3;
+            order: 3; 
+ min-width: 40;
+    min-height: auto;
+    }
+    
+    #check .D {      
+    -webkit-flex: 1 1 auto;
+            flex: 1 1 auto;
+    -webkit-order: 4;
+            order: 4; 
+ 
+    }
+    
+    #check .E {      
+    -webkit-flex: 1 1 auto;
+            flex: 1 1 auto;
+    -webkit-order: 5;
+            order: 5; 
+        margin-bottom: -10px;
+    }
+
+    
+.contact_form { 
+   min-width:70%;  
+    margin:auto;
+  }
+
+
+
+/*section*/ 
+ 
+section {    
+  /*  float:right; */ 
+    margin-top: 30px;
+    min-height: 500px;
+  
+    }
+    
+#mainImage {
+    width:98%;
+    height:250px;
+    border:1px solid black;
+    }
+    
+  #main, #page {
+    flex-flow: column;
+    flex-direction: column;
+   }
+
+  #main > article, #main > nav, #main > aside {
+    /* Return them to document order */
+    order: 0;
+    order: 0;
+   }
+  
+  #main > nav, #main > aside{ 
+    margin-top:10px;
+    margin-bottom:10px;
+    width:90%;
+    margin:auto;
+  }
+ 
+.sidebar1 {
+    padding:5px;
+    width:90%;
+    margin: 10px auto;
+    }
+    
+/*responsive - about us page */    
+    #main2 {
+        flex-flow: column;
+        flex-direction: column;
+        
+       }
+
+#main2 > .article1, #main2 > .article2, #main2 > .article3 {
+  /*  min-height: 50px;
+    max-height: 50px; */
+    padding:10px;
+    max-width:100%;
+  }
+
+ 
+    
+/*footer*/
+    
+footer {
+   display:block; 
+    padding-top:20px;
+    }
+    
+.footer_menu {
+        min-width:100%;
+    }    
+    
+.footer_menu ul {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;     
+    }
+   
+.footer_bottom p {
+    font-size:10px;
+    display:block;     
+    }
+
+.paypal2 {       
+    float:left;   
+    }
+    
+    
+.social_icon {
+    float:left;
+    }
+
+    
+    /**/
+@media all and (max-width: 550px) {
+    
+    .contact_form {
+        min-width:90%;
+        
+    }
+  
+    
+    .logo {
+        transform:scale(0.7);
+        padding:0;
+        }
+          
+    .title {
+       transform:scale(0.8);
+    }
+}
+
+
+@media all and (max-width: 460px) {
+       
+   .title {   
+       margin-right:-25px;      
+    }    
+    
+     .contact_form {
+        width:90%;
+        
+    }
+}        
+ 
+    
+   
+    
+    /*
+.box {
+    display: flex;
+    flex-flow: row/row-reverse/column/cloumn-reverse || nowrap/wrap/wrap-reverse(flex-wrap separately or added in this );
+    justify-content:center/flex-start/flex-end/space-between/space-around ;
+    align-content:center/flex-start/flex-end/space-between/space-around/stretch ;
+    align-items: center/flex-start/flex-end/space-between/baseline/stretch;
+}
+
+flex item
+A
+.box div.A {
+    order: 4
+    flex: 0 5 auto ;
+    align-self: center/flex-start/flex-end/baseline/stretch/auto;
+    min-width: 40;
+    min-height: auto;
+}
+*/
+    
+}
